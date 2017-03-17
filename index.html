@@ -1,601 +1,89 @@
-<!doctype html>
-
-
-
-  
-
-
-<html class="theme-next muse use-motion" lang="">
+﻿<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<img style="position:absolute;left:0px;top:0px;width:100%;height:100%;z-Index:-1; border:1px solid blue" src="images/bg.jpg" />
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
-
-
-
-
-
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="estelle个人博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="estelle个人博客">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="estelle个人博客">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Muse',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: '0',
-      author: 'Author'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="http://yoursite.com/"/>
-
-
-
-
-
-  <title> estelle个人博客 </title>
+    <meta charset="gb2312">
+    <title>Estelle个人博客网站</title>
+    <link href="css/index.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+    <script src="js/modernizr.js"></script>
+    <![endif]-->
 </head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="">
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">estelle个人博客</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
+<body>
+<header>
+    <h1><a href="/">Sunshine </a></h1>
+    <p>离你越近的地方，路途最远，最简单的音调，需要最艰苦的练习. . .</p>
+</header>
+<div class="navswf">
+    <object id="customMenu" data="images/nav.swf" width="528" height="70" type="application/x-shockwave-flash">
+        <param name="allowScriptAccess" value="always">
+        <param name="allownetworking" value="all">
+        <param name="allowFullScreen" value="true">
+        <param name="wmode" value="transparent">
+        <param name="menu" value="false">
+        <param name="scale" value="noScale">
+        <param name="salign" value="1">
+    </object>
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于我</a></li>
+            <li><a href="moodlist.html">碎言碎语</a></li>
+            <li><a href="technology.html">软件开发</a></li>
+            <li><a href="security.html">信息安全</a></li>
+            <li><a href="lc.html">And You</a></li>
+            <li><a href="book.html">留言板</a></li>
+        </ul>
+        <script src="js/silder.js"></script><!--获取当前页导航 高亮显示标题-->
+    </nav>
 </div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/主页" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            Home
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/文章" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            Archives
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            Tags
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/03/17/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="estelle">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="estelle个人博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/17/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-17T11:43:14+08:00">
-                2017-03-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
+<article>
+    <div class="pho">
+        <ul>
+            <li><a href="#pic01"><img src="images/01.jpg"></a></li>
+            <li><a href="#pic02"><img src="images/02.jpg"></a></li>
+            <li><a href="#pic03"><img src="images/03.jpg"></a></li>
+        </ul>
     </div>
-
-    <div>
-      
+    <div class="blank"></div>
+    <div class="blog">
+        <h2>Life</h2>
+        <ul>
+            <img src="images/01.jpg">
+            <h3 class="title"><a href="http://www.yangqq.com/news/read/2013-06-11/212.html"
+                                 id="pic01">有一种思念，是淡淡的幸福,一个心情一行文字</a>
+            </h3>
+            <p>1)
+                有一种思念，是淡淡的幸福；有一种幸福，是常常的牵挂；有一种牵挂，是远远地欣赏。不是所有的梦都能实现；不是所有的话都来得及告诉；不是所有的爱都有结果。请为爱珍重，等到你的发丝有了白雪的痕迹，还能记起曾有这么一段美好，还有这么一个让自己怀念的人，何尝不是一种幸福。</p>
+            <p>2)
+                忘记一个人，并非不再想起，而是偶尔想起，心中却不再有波澜。真正的忘记，是不需要努力的。每个人的电话本里，都会有那么一个你永远不会打，也永远不会删的号码；每个人的心里，都会有那么一个你永远不会提，也永远不会忘的人。</p>
+        </ul>
     </div>
-
-    <div>
-      
+    <div class="blog">
+        <h2>Miss</h2>
+        <ul>
+            <img src="images/02.jpg">
+            <h3 class="title"><a href="http://www.yangqq.com/news/read/2013-06-11/212.html"
+                                 id="pic02">丢弃需要勇气，珍藏需要空间</a>
+            </h3>
+            <p>3) 人活在世上总是有太多的牵绊，太多的不舍，因为那些旧东西烙上了昨日的欢痕，所以总是狠不下心来。丢弃需要勇气，珍藏需要空间。放弃一个很爱你的人，并不痛苦。
+                放弃一个你很爱的人，那才痛苦。爱上一个不爱你的人，那是更痛苦。不要因为寂寞而错爱，不要因为错爱而寂寞一生。</p>
+            <p>4)
+                爱一个人而那个人不爱你是很让人难受的，但更痛苦的是，爱一个人，却永远都没勇气告诉他。每个人都有潜在的能量，只是很容易：被习惯所掩盖，被时间所迷离，被惰性所消磨。能冲刷一切的除了眼泪，就是时间，以时间来推移感情，时间越长，冲突越淡，仿佛不断稀释的茶。得不到你所爱的，就爱你所得的。</p>
+        </ul>
     </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
-
-          
-          </div>
-          
-
-
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    <div class="blog">
+        <h2>Happiness</h2>
+        <ul>
+            <img src="images/03.jpg">
+            <h3 class="title"><a href="http://www.yangqq.com/news/read/2013-06-11/212.html" id="pic03">假装快乐，是不想让人看出孤独；假装高兴，是不想让人看见伤口</a>
+            </h3>
+            <p>5) 愈害怕失去的人，愈容易失去。愈想得到，就愈要放手。 放手是很难的，但是别无选择。 世上有很多东西是可以挽回的，比如良知，比如体重。 但不可挽回的东西更多，譬如旧梦，譬如岁月，譬如对一个人的感觉。
+                放弃一个很爱你的人并不痛苦，放弃一个你很爱的人才是痛苦。</p>
+            <p>6)
+                假装坚强，是不想让人看到眼泪；假装开心，是不想让人知道寂寞；假装快乐，是不想让人看出孤独；假装高兴，是不想让人看见伤口；假装甜蜜，是不想让人看见泪水；假装轻松，是不想让人发觉心酸；假装幸福，是不想让人看见疤痕；假装成熟，是不想让人看出无知；假装聪明，是不想让人看到失败。</p>
+        </ul>
     </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="estelle" />
-          <p class="site-author-name" itemprop="name">estelle</p>
-           
-              <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-        
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/文章">
-                <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">posts</span>
-              </a>
-            </div>
-          
-
-          
-
-          
-
-        </nav>
-
-        
-
-        <div class="links-of-author motion-element">
-          
-        </div>
-
-        
-        
-
-        
-        
-
-        
-
-
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2017</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">estelle</span>
-</div>
-
-
-<div class="powered-by">
-  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
-</div>
-
-<div class="theme-info">
-  Theme -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
-  </a>
-</div>
-
-
-        
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-    
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
-
-
-
-  
-
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
+</article>
 </body>
 </html>
